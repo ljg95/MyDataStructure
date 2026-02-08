@@ -12,8 +12,9 @@
 ### 구조 (ArrayList vs LinkedList)
 Stack은 내부적으로 다양한 방식으로 구현할 수 있습니다.
 
-#### 1. ArrayList (동적 배열) 기반
+#### 1. MyArrayList (동적 배열) 기반
 우리가 구현한 `MyStack`이 이 방식을 사용했습니다.
+-   내부적으로 직접 구현한 **`MyArrayList`**를 사용하여 데이터를 저장합니다.
 -   **Push**: `add()` - 배열의 끝에 추가. (O(1), *Resizing 발생 시 O(n)*)
 -   **Pop**: `remove(size - 1)` - 배열의 끝 요소 제거. (O(1))
 -   **장점**: 구현이 쉽고 인덱스 접근이 빠름.

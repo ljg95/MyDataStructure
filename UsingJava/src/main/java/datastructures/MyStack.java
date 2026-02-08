@@ -1,17 +1,15 @@
 package datastructures;
 
-import java.util.ArrayList;
 import java.util.EmptyStackException;
-import java.util.List;
 
 /**
  * 제네릭 스택(Stack) 구현체입니다.
- * 내부적으로 ArrayList를 사용하여 데이터를 저장합니다.
+ * 내부적으로 MyArrayList를 사용하여 데이터를 저장합니다.
  * 
  * @param <T> 스택에 저장할 데이터의 타입
  */
 public class MyStack<T> {
-    private final List<T> elements = new ArrayList<>();
+    private final MyArrayList<T> elements = new MyArrayList<>();
 
     /**
      * 스택의 맨 위에 데이터를 추가합니다 (Push).

@@ -28,3 +28,6 @@ bin/
 # OS generated files
 .DS_Store
 Thumbs.db
+UsingJava/.gradle/9.2.0/fileHashes/fileHashes.bin
+UsingJava/.gradle/9.2.0/fileHashes/fileHashes.lock
+UsingJava/.gradle/buildOutputCleanup/buildOutputCleanup.lock
