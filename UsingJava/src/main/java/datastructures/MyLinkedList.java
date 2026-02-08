@@ -1,7 +1,5 @@
 package datastructures;
 
-import java.util.NoSuchElementException;
-
 /**
  * 단방향 연결 리스트(Singly Linked List) 구현체입니다.
  * 
